@@ -185,7 +185,7 @@ async def uptime(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 # Main function
 def main():
-    app = ApplicationBuilder().token("7854325693:AAHWZfIvqxU-zg9qBH05UDMcCHqsFlqnSDA").build()
+    app = ApplicationBuilder().token("7775849416:AAGwq5pW6RPqJZTcWbVF91B285u31BSiW1U").build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("help", help_command))
